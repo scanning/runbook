@@ -1,0 +1,5 @@
+echo "Hello World!"
+#A comment
+ls
+~echo "Silent"
+pwd
