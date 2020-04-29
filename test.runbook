@@ -4,3 +4,5 @@ ls
 ~echo "Silent"
 !false
 pwd
+export VAR=abc
+printenv VAR

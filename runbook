@@ -46,7 +46,7 @@ for cmd in "${cmds[@]}"
 do
   case "${cmd:0:1}" in
     '~')
-      (silentcmd "${cmd:1}")
+      silentcmd "${cmd:1}"
       ;;
     '#')
       ;;
@@ -54,7 +54,7 @@ do
       errcmd "${cmd:1}" && echo ""
       ;;
     *)
-      (docmd "${cmd}")
+      docmd "${cmd}"
       ;;
    esac
 done
